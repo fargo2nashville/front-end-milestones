@@ -1,0 +1,26 @@
+header {
+    border: 1px solid palevioletred;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.disabled {
+    color: gray;
+}  
+
+a .disabled {
+    color: darkorchid;
+}
+
+.active {
+    color: yellow;
+}
