@@ -24,3 +24,28 @@ a .disabled {
 .active {
     color: yellow;
 }
+
+.parent div:first-child {
+    color: red;
+}
+
+.parent div:nth-child(3) {
+    color: blue;
+}
+
+.parent div:first-of-type + h4 {
+    background-color: red;
+  }
+
+  .parent div:nth-of-type(2) + h4 {
+    background-color: blue;
+  }
+
+  .promo {
+    font-weight: bold;
+    color: gold;
+  }
+
+  input:valid {
+      height: 25px;
+  }
